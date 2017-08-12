@@ -16,8 +16,8 @@ When arrays/hashes contain other arrays/hashes, they are called “nested”
 Applications
 Understand both ways to declare iterations, block and “do...end”
 Create, access, and manipulate arrays 
-Iterate and manipulate arrays with .each, .map, .map!
+Iterate and manipulate arrays with .each, .map
 Create, access, and manipulate hashes
-Iterate and manipulate hashes with .each, .map, .map!
+Iterate and manipulate hashes with .each, .map
 Navigate nested data structures and make your own. For example, design a house with all the things in it
 
