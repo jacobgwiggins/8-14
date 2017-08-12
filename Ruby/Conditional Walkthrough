@@ -1,0 +1,39 @@
+Let’s practice our Ruby conditionals
+
+Declare some variables: 
+
+Name = Louie 
+Age = 27
+
+Write a conditional verifying my Louie and printing it out
+
+Modify this conditional to print something else if the supplied name is incorrect
+
+Write a conditional on a hash 
+Order = { :size => “medium” }
+
+Write conditionals for a coffeemaker to make different sized coffees  (s/m/l)
+Make methods for each coffee size
+
+Example: def make_medium_coffee
+		puts “making medium coffee”
+	    end
+
+Now let’s use “unless”
+
+Declare state of name
+Unless name == Louie
+	Puts “Hi stranger”
+End
+
+Use “when”
+
+Declare state name
+When name == Bobby 
+	Puts “that’s my purse I don’t know you”
+end
+
+When hour == 4 then “let’s go home!”
+end
+
+Make a conditional that greets me with “good morning”, “good afternoon”, “good evening”
