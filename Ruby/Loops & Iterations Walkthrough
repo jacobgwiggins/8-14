@@ -1,0 +1,43 @@
+Intro to Loops
+
+“While”
+Simple loop to iterate through each element in an array
+Names =  [“John”, “George”, “Paul”, “Ringo”]
+I = 0
+
+While name[i] do 
+ 	Puts name[i]
+i+=1
+End
+
+“Until” 
+Like “unless”
+Can make a countdown timer
+Days_left = 7
+Until days_left = 0
+	puts “there are still #{days_left) days left until my birthday”
+	Days_left -= 1
+End
+
+“For”
+Better than a while loop, no counter
+For name in names 
+	Puts name
+End 
+
+Hash = { :name => “Louie”, :age => “27, :city => “Oakland }
+
+For key, val in hash 
+	Puts #{key} is #{val}
+End
+
+“.each”
+Names.each do |name|
+	Puts name
+End
+
+Reverse the names in a new array
+“.map”
+Names.map do |name|
+	Puts name.reverse
+end
