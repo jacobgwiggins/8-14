@@ -1,0 +1,23 @@
+ 
+Competencies
+
+Understand how to read Ruby documentation
+Loops and iterations are closely related in Ruby, and are often used in conjunction with each other
+Arrays are collections of data (strings, numbers, even other arrays and hashes)
+Can be operated on just like other objects
+Hashes have keys that correspond to values, like a dictionary of words and definitions
+Iteration calls upon each element of the array or hash at a time
+Arrays and hashes can be declared with block parameters or “do...end” syntax
+When arrays/hashes contain other arrays/hashes, they are called “nested”
+.each iterates over your existing data
+.map iterates and puts your data into a new array or hash
+.map! permanently keeps the changes you made
+
+Applications
+Understand both ways to declare iterations, block and “do...end”
+Create, access, and manipulate arrays 
+Iterate and manipulate arrays with .each, .map, .map!
+Create, access, and manipulate hashes
+Iterate and manipulate hashes with .each, .map, .map!
+Navigate nested data structures and make your own. For example, design a house with all the things in it
+
