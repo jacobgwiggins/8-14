@@ -9,4 +9,8 @@ Looping and Iteration
 
 For next time:
 
-Read Github Challenges Setup
+Read through Github Challenges Setup
+
+Flatiron Ruby Iterations
+
+Codeacademy Looping and Iterators
