@@ -2,15 +2,22 @@ Job Interview:
 
 
 At Werewolf Inc., quittin’ time is always before sundown.
-Because proper werewolfery depends on the moon, and anyone can pretend to be a werewolf during the day, it is important to quiz new employees about whether they are secretly vampires -- the natural enemy of the werewolf.
-Otherwise, vampires can just slap on some sunscreen and then charm their way into high-paying C-level positions, walking around like they own the place. You wouldn’t believe how often this happens.
+Because proper werewolfery depends on the moon, and anyone can pretend to be a werewolf during the day, 
+it is important to quiz new employees about whether they are secretly vampires -- the natural enemy of the werewolf.
+Otherwise, vampires can just slap on some sunscreen and then charm their way into high-paying C-level positions, 
+walking around like they own the place. You wouldn’t believe how often this happens.
 
 You’ll worry about adding vampire-detection logic in the next step; right now, you're just gathering the data.
 
-What is your name? Some known vampires are in the area, and we can check against the Werewolf Intelligence Bureau database for their aliases.
-How old are you? What year were you born? This is to try to trick the vampire, who is likely several hundreds of years old. If an employee gives an age and a year of birth that don’t line up mathematically, that employee might be a vampire.
-Our company cafeteria serves garlic bread. Should we order some for you? Vampires hate garlic. Do not even get a vampire started on garlic. Invite a vampire to an Italian restaurant even one time, and you’ll never hear the end of it.
-Would you like to enroll in the company’s health insurance? Vampires are immortal, so they certainly don’t need health insurance.
+What is your name? Some known vampires are in the area, and we can check against the Werewolf Intelligence Bureau 
+database for their aliases.
+How old are you? What year were you born? This is to try to trick the vampire, who is likely several hundreds of years old. 
+If an employee gives an age and a year of birth that don’t line up mathematically, that employee might be a vampire.
+Our company cafeteria serves garlic bread. Should we order some for you? Vampires hate garlic.
+Do not even get a vampire started on garlic. Invite a vampire to an Italian restaurant even one time, 
+and you’ll never hear the end of it.
+Would you like to enroll in the company’s health insurance? Vampires are immortal, so they certainly don’t need 
+health insurance.
 
 Now it’s time to apply some logic to figure out whether the employee in question is a vampire.
 
@@ -20,7 +27,8 @@ wolves_like_sunshine = true
 wolves_like_garlic = true
 vampires_like_sunshine = false
 vampires_like_garlic = false
-Now run each of the lines below. Before hitting Enter on a line, stop and make a guess as to what it will return, then see whether you were right. Remember to think about evaluation order: anything in parentheses will evaluate first.
+Now run each of the lines below. Before hitting Enter on a line, stop and make a guess as to what it will return,
+then see whether you were right. Remember to think about evaluation order: anything in parentheses will evaluate first.
 
 wolves_like_garlic && wolves_like_sunshine
 wolves_like_garlic || vampires_like_garlic
@@ -30,14 +38,20 @@ wolves_like_garlic && (vampires_like_sunshine || vampires_like_garlic)
 vampires_like_garlic
 !vampires_like_garlic
 !(wolves_like_sunshine && wolves_like_garlic)
-Any of the expressions above could be given to an if statement. Those last two lines used something called the bang operator:!. You won't need it for this challenge, but you should look it up if you're curious.
+Any of the expressions above could be given to an if statement. Those last two lines used something called the 
+bang operator:!. You won't need it for this challenge, but you should look it up if you're curious.
 
 
-Match the following conditions in the order they're listed. Your program should base its result on the latest condition matched, not the first condition matched. In other words, it's not a "only one condition will apply" sort of scenario. This may mean repeatedly updating a variable as each condition is checked, so that the variable always contains the most precise result.
+Match the following conditions in the order they're listed. Your program should base its result on the latest
+condition matched, not the first condition matched. In other words, it's not a "only one condition will apply" sort 
+of scenario. This may mean repeatedly updating a variable as each condition is checked, so that the variable 
+always contains the most precise result.
 
-If the employee got their age right, and is willing to eat garlic bread or sign up for insurance, the result is “Probably not a vampire.”
+If the employee got their age right, and is willing to eat garlic bread or sign up for insurance, 
+the result is “Probably not a vampire.”
 If the employee got their age wrong, and hates garlic bread or waives insurance, the result is “Probably a vampire.”
 If the employee got their age wrong, hates garlic bread, and doesn’t want insurance, the result is “Almost certainly a vampire.”
-Even if the employee is an amazing liar otherwise, anyone going by the name of “Drake Cula” or “Tu Fang” is clearly a vampire, because come on. In that case, you should print “Definitely a vampire.”
+Even if the employee is an amazing liar otherwise, anyone going by the name of “Drake Cula” or
+“Tu Fang” is clearly a vampire, because come on. In that case, you should print “Definitely a vampire.”
 Otherwise, print “Results inconclusive.”
 Print the result at the end of the survey.
