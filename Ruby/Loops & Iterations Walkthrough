@@ -3,7 +3,7 @@ Intro to Loops
 “While”
 Simple loop to iterate through each element in an array
 Names =  [“John”, “George”, “Paul”, “Ringo”]
-I = 0
+i = 0
 
 While name[i] do 
  	Puts name[i]
